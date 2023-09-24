@@ -1,0 +1,42 @@
+.each-historyItem-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0px;
+  gap: 10px;
+}
+.domain-logo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  gap: 15px;
+
+  padding: 5px;
+}
+.domain-logo{
+    height: 35px;
+    width: 35px;
+}
+.domain-title {
+  color: #475569;
+  font-size: 15px;
+  font-weight: 500;
+}
+.domain-url {
+  color: #64748b;
+}
+.btn {
+  background-color: transparent;
+  border: none;
+}
+.time {
+  font-weight: bold;
+  font-size: 14px;
+}
+.time-container {
+  width: 100px;
+}
